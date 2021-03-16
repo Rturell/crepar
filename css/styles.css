@@ -1,6 +1,6 @@
   body {
       background-color: black;
-      background: url(../img/Bg_320px.png) no-repeat top center fixed;
+      background: url(../img/bg-img.png) no-repeat top center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
