@@ -1,13 +1,3 @@
-body {
-    background-color: black;
-    background: url(../img/bg-img.png) no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-}
-
 
 #home {
     margin-top: 89px;
@@ -50,4 +40,44 @@ body {
     position: absolute;
     top: 0;
     width: 100%;
+}
+
+
+
+@media only screen and (min-width: 320px) {
+   body {
+       background-color: black;
+       background: url(../img/Bg_320px.png) no-repeat top center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+       text-align: center;
+   }
+
+}
+
+@media only screen and (min-width: 576px) {
+  body {
+      background-color: black;
+      background: url(../img/bg-img.png) no-repeat top center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
 }
